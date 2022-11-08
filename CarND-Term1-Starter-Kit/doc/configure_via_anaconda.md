@@ -50,6 +50,8 @@ If you are on Windows, **rename**
 `meta_windows_patch.yml` to   
 `meta.yml`
 
+Replace content of environment.yml with content of https://github.com/juloem/CarND/blob/main/CarND-Term1-Starter-Kit/environment.yml
+
 **Create** carnd-term1.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.
 ```
 conda env create -f environment.yml
