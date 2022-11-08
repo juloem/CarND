@@ -1,7 +1,8 @@
 # CarND
 In this repository I'll share source code from projects of [Udacity's Self Driving Car Engineer Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
 
-## If you have already installed the [CarND Term1 Starter Kit](CarND-Term1-Starter-Kit/README.md) you should be good to go!   If not, you should install the starter kit to get started on this project! ##
+## If you have already installed the [CarND Term1 Starter Kit](CarND-Term1-Starter-Kit) you should be good to go!   If not, you should install the starter kit to get started on this project! ##
+
 
 ## Table of Contents
 
