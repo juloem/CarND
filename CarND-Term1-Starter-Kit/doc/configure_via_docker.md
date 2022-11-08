@@ -12,11 +12,11 @@ Using Docker to run your code consists of the following:
 2. Pull the precompiled Docker image from Docker Hub
 3. Each time you wish to work, run the image as a new container
 
-The tricky part to working with Docker will be accessing your project code while working with a Python process (via Jupyter, Python, or IPython) running in a container. 
+The tricky part to working with Docker will be accessing your project code while working with a Python process (via Jupyter, Python, or IPython) running in a container.
 
 ### GPU support
 
-GPU Support is available for AWS using `nvidia-docker`. Start [here](docker_for_aws.md). 
+GPU Support is available for AWS using `nvidia-docker`. Start [here](docker_for_aws.md).
 
 ---
 
@@ -39,7 +39,7 @@ Instructions for installation vary by operating system and version.
 
 ### Pull the Precompiled Docker Image from Docker Hub
 
-A precompiled image with all dependencies required for the first 
+A precompiled image with all dependencies required for the first
 term is available on [Docker Hub][carnd_docker_hub].
 
 Once you have docker working, pull the image using the following command:
@@ -105,6 +105,6 @@ To learn more about Docker [visit the docs](https://docs.docker.com/engine/userg
 
 #### For Windows
 
-Use the ip address of the container to connect to Jupyter notebook, this can be found by opening another 
+Use the ip address of the container to connect to Jupyter notebook, this can be found by opening another
 docker terminal and running this command: `docker-machine ip default`. Jupyter server can then be accessed
 by going to this page from your browser: `http://[ip-of-container]:8888`.

@@ -2,9 +2,9 @@
 
 Per the Anaconda [docs](http://conda.pydata.org/docs):
 
-> Conda is an open source package management system and environment management system 
-for installing multiple versions of software packages and their dependencies and 
-switching easily between them. It works on Linux, OS X and Windows, and was created 
+> Conda is an open source package management system and environment management system
+for installing multiple versions of software packages and their dependencies and
+switching easily between them. It works on Linux, OS X and Windows, and was created
 for Python programs but can package and distribute any software.
 
 ## Overview
@@ -22,7 +22,7 @@ Using Anaconda consists of the following:
 
 **NOTE**: There have been reports of issues creating an environment using miniconda `v4.3.13`. If it gives you issues try versions `4.3.11` or `4.2.12` from [here](https://repo.continuum.io/miniconda/).
 
-|        | Linux | Mac | Windows | 
+|        | Linux | Mac | Windows |
 |--------|-------|-----|---------|
 | 64-bit | [64-bit (bash installer)][lin64] | [64-bit (bash installer)][mac64] | [64-bit (exe installer)][win64]
 | 32-bit | [32-bit (bash installer)][lin32] |  | [32-bit (exe installer)][win32]
@@ -39,15 +39,15 @@ Using Anaconda consists of the following:
 - **Mac:** https://conda.io/en/latest/miniconda.html#macosx-installers
 - **Windows:** https://conda.io/en/latest/miniconda.html#windows-installers
 
-**Setup** the `carnd-term1` environment. 
+**Setup** the `carnd-term1` environment.
 
 ```sh
 git clone https://github.com/udacity/CarND-Term1-Starter-Kit.git
 cd CarND-Term1-Starter-Kit
 ```
 
-If you are on Windows, **rename**   
-`meta_windows_patch.yml` to   
+If you are on Windows, **rename**
+`meta_windows_patch.yml` to
 `meta.yml`
 
 Replace content of environment.yml with content of https://github.com/juloem/CarND/blob/main/CarND-Term1-Starter-Kit/environment.yml
@@ -96,7 +96,7 @@ conda info --envs
 conda clean -tp
 ```
 
-### Uninstalling 
+### Uninstalling
 
 To uninstall the environment:
 
@@ -120,7 +120,7 @@ Otherwise, follow the same steps as above.
 
 ## Using Anaconda
 
-Now that you have created an environment, in order to use it, you will need to activate the environment. This must be done **each** time you begin a new working session i.e. open a new terminal window. 
+Now that you have created an environment, in order to use it, you will need to activate the environment. This must be done **each** time you begin a new working session i.e. open a new terminal window.
 
 **Activate** the `carnd-term1` environment:
 

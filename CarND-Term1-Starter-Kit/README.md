@@ -12,7 +12,7 @@ There are two ways to get up and running:
 
 Get started [here](doc/configure_via_anaconda.md). More info [here](http://conda.pydata.org/docs/).
 
-Supported Sytems: Linux (CPU), Mac (CPU), Windows (CPU)     
+Supported Sytems: Linux (CPU), Mac (CPU), Windows (CPU)
 
 | Pros                         | Cons                                               |
 |------------------------------|----------------------------------------------------|
@@ -24,7 +24,7 @@ Supported Sytems: Linux (CPU), Mac (CPU), Windows (CPU)
 
 Get started [here](doc/configure_via_docker.md). More info [here](http://docker.com).
 
-Supported Systems : AWS (CPU, [GPU](doc/docker_for_aws.md)), Linux (CPU), Mac (CPU), Windows (CPU)     
+Supported Systems : AWS (CPU, [GPU](doc/docker_for_aws.md)), Linux (CPU), Mac (CPU), Windows (CPU)
 
 | Pros                                | Cons                                 |
 |-------------------------------------|--------------------------------------|
